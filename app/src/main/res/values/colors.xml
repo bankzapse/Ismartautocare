@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#383838</color>
+    <color name="colorPrimaryDark">#26282f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_main">#262830</color>
+    <color name="bg_box">#383838</color>
+    <color name="bg_toolbar">#17181d</color>
+    <color name="white">#fff</color>
+    <color name="yellow">#d9c55d</color>
+
+</resources>

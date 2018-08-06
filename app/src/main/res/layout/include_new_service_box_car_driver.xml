@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:id="@+id/lv_box1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/bg_box"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/lv_box1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/asset_30_2x"
+                    android:padding="6dp"/>
+
+                <com.ismartautocare.MyFontsStyle.MyTextViewFontsBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_service_car"
+                    android:textSize="18dp"
+                    android:textColor="#d9c55d"
+                    android:padding="15dp"
+                    android:background="@android:color/transparent"/>
+
+                //box1_1
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lv_box1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/lv_box1_2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_service_brand"
+                        android:textSize="18dp"
+                        android:textColor="#d9c55d"
+                        android:background="@android:color/transparent" />
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:id="@+id/tv_band"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/new_service_brand"
+                        android:textSize="18dp"
+                        android:textColorHint="#bebdbd"
+                        android:backgroundTint="#fff"
+                        android:lines="1"
+                        android:textColor="#fff"/>
+
+                        //box1_2_1
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lv_box1_2_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="10dp">
+
+                        <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/new_service_model"
+                            android:textSize="18dp"
+                            android:textColor="#d9c55d"
+                            android:background="@android:color/transparent" />
+
+                        <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                            android:id="@+id/tv_model"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:hint="@string/new_service_model"
+                            android:textSize="18dp"
+                            android:textColorHint="#bebdbd"
+                            android:backgroundTint="#fff"
+                            android:lines="1"
+                            android:textColor="#fff"/>
+
+                        //box1_2_2
+                    </LinearLayout>
+
+                //box1_2
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lv_box1_band"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom"
+                android:layout_alignParentBottom="true">
+
+                <NumberPicker
+                    android:id="@+id/numberPickerBand"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:theme="@style/NumberPickerText"/>
+
+                <NumberPicker
+                    android:id="@+id/numberPickerModel"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:theme="@style/NumberPickerText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lv_box1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_service_service_size"
+                    android:textSize="18dp"
+                    android:textColor="#d9c55d"
+                    android:padding="15dp"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center_vertical"/>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="bottom"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/image_car_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/car_type_1x" />
+
+                </LinearLayout>
+
+                </LinearLayout>
+
+                //box1_3
+            </LinearLayout>
+
+        //box1
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/bg_box"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/lv_search"
+                android:layout_height="370dp"
+                android:layout_width="wrap_content"
+                android:background="@color/bg_box"
+                android:divider="#fff"
+                android:dividerHeight="1px"/>
+
+            <LinearLayout
+                android:id="@+id/lv_box2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/bg_box">
+
+                <LinearLayout
+                    android:id="@+id/lv_box2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/asset_28_2x"
+                        android:padding="6dp"/>
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFontsBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_service_driver"
+                        android:textSize="18dp"
+                        android:textColor="#d9c55d"
+                        android:padding="15dp"
+                        android:background="@android:color/transparent"/>
+
+                    //box2_1
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lv_box2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/lv_box_profile_member"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/imageprofile"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/image_profile_true_2x"
+                                app:civ_border_color="#d11111"
+                                app:civ_border_width="2dp"
+                                app:civ_shadow="true"
+                                app:civ_shadow_color="#646464"
+                                android:layout_gravity="center_horizontal"/>
+
+                            <View
+                                android:id="@+id/view_member"
+                                android:layout_height="4dp"
+                                android:layout_width="90dp"
+                                android:background="#d11111"
+                                android:layout_gravity="center_vertical|center_horizontal"
+                                android:rotation="120"/>
+
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lv_sun_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:layout_marginLeft="5dp">
+
+                            <LinearLayout
+                                android:id="@+id/lv_box2_2_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:src="@drawable/asset_98_2x"/>
+
+                                <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="*"
+                                    android:textSize="18dp"
+                                    android:textColor="#d9c55d"
+                                    android:background="@android:color/transparent"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="5dp"/>
+
+                                <com.ismartautocare.MyFontsStyle.MyEdittextFonts
+                                    android:id="@+id/et_name_driver"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:hint="@string/new_service_name"
+                                    android:textSize="18dp"
+                                    android:textColorHint="#bebdbd"
+                                    android:backgroundTint="#fff"
+                                    android:lines="1"
+                                    android:textColor="#fff"
+                                    android:ems="100"/>
+
+                                //box2_2_1
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lv_box2_2_2_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:src="@drawable/asset_100_2x"/>
+
+                                <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="*"
+                                    android:textSize="18dp"
+                                    android:textColor="#d9c55d"
+                                    android:background="@android:color/transparent"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="5dp"/>
+
+                                <com.ismartautocare.MyFontsStyle.MyEdittextFonts
+                                    android:id="@+id/et_phone_driver"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:hint="@string/new_service_phone"
+                                    android:textSize="18dp"
+                                    android:textColorHint="#bebdbd"
+                                    android:backgroundTint="#fff"
+                                    android:lines="1"
+                                    android:textColor="#fff"
+                                    android:ems="100"
+                                    android:inputType="phone"/>
+
+                                //box2_2_2_1
+                            </LinearLayout>
+
+                            //lv_sun_profile
+                        </LinearLayout>
+
+                        //lv_box_profile_member
+                    </LinearLayout>
+
+
+
+                    //box2_2
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lv_box2_2_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_service_member"
+                        android:textSize="18dp"
+                        android:textColor="#d9c55d"
+                        android:padding="5dp"
+                        android:background="@android:color/transparent"/>
+
+                    <ImageView
+                        android:id="@+id/image_member_car_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/car_type_1x"
+                        android:padding="6dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    //box2_2_3
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lv_box2_2_member"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/lv_box2_2_1_member"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1">
+
+                        <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/new_service_member_id"
+                            android:textSize="18dp"
+                            android:textColor="#d9c55d"
+                            android:background="@android:color/transparent"
+                            android:layout_marginRight="10dp"/>
+
+                        <com.ismartautocare.MyFontsStyle.MyEdittextFonts
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:hint="1234"
+                            android:textSize="18dp"
+                            android:textColorHint="#bebdbd"
+                            android:backgroundTint="#fff"
+                            android:lines="1"
+                            android:textColor="#fff"
+                            android:ems="100"/>
+
+                        //box2_2_1_member
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lv_box2_2_2_member"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1">
+
+                        <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/new_service_member_type"
+                            android:textSize="18dp"
+                            android:textColor="#d9c55d"
+                            android:background="@android:color/transparent"
+                            android:layout_marginRight="10dp"/>
+
+                        <com.ismartautocare.MyFontsStyle.MyEdittextFonts
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:hint="Gold"
+                            android:textSize="18dp"
+                            android:textColorHint="#bebdbd"
+                            android:backgroundTint="#fff"
+                            android:lines="1"
+                            android:textColor="#fff"
+                            android:ems="100"/>
+
+                        //box2_2_2_member
+                    </LinearLayout>
+
+                    //box2_2_member
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lv_box2_3_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp">
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_service_status"
+                        android:textSize="18dp"
+                        android:textColor="#d9c55d"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"/>
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:id="@+id/tv_exp_driver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EXP date 12 Sep 2017"
+                        android:textSize="18dp"
+                        android:textColor="#fff"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/confirm"
+                        android:padding="6dp"
+                        android:layout_weight="1"/>
+
+                    //box2_3_status
+                </LinearLayout>
+
+                //box2
+            </LinearLayout>
+
+        </FrameLayout>
+
+        //main
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

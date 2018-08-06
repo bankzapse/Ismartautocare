@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="1"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_marginRight="20dp"/>
+
+        <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+            android:id="@+id/tv_name_services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="GC-G1"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/check_services"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/check_un_2x"
+            android:layout_gravity="center_vertical|right" />
+
+    </LinearLayout>
+
+</LinearLayout>

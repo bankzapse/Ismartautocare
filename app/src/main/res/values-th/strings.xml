@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iSmart\nAutoCare</string>
+
+    <string name="base_url">http://43.229.78.108:3011/</string>
+
+    <string name="login_username">ชื่อผู้ใช้</string>
+    <string name="login_password">รหัสผ่าน</string>
+    <string name="login_username_hint">ชื่อผู้ใช้ หรือ อีเมล์</string>
+    <string name="login_password_hint">รหัสผ่าน</string>
+    <string name="login_please_username">  กรุณาใส่ชื่อผู้ใช้  </string>
+    <string name="login_please_pass">  กรุณาใส่รหัสผ่าน  </string>
+    <string name="login_forgot_pass">ลืมรหัสผ่าน</string>
+    <string name="login_sing_in"> เข้าสู่ระบบ </string>
+    <string name="login_cancel">  ยกเลิก  </string>
+    <string name="login_register">  สมัครสมาชิก  </string>
+    <string name="login_meassage_er_user_pass_403">  ชื่อผู้ใช้ หรือ อีเมล์ ผิดพลาด </string>
+    <string name="login_meassage_er_user_pass_503">  เกิดข้อผิดพลาดในการเชื่อมต่อ </string>
+    <string name="login_meassage_er_for_got">ลืมรหัสผ่าน</string>
+    <string name="login_meassage_er_system_error">พบข้อผิดพลาดของระบบ</string>
+    <string name="login_meassage_er_system_error_sub">โปรดลองอีกครั้งในภายหลังหรือติดต่อเรา \n ศูนย์สนับสนุนในทันที</string>
+    <string name="login_meassage_er_register_under">ลงทะเบียนอยู่ระหว่างการเชื่อมต่อ</string>
+    <string name="login_meassage_er_admin_contact">โปรดติดต่อผู้ดูแลระบบของคุณ</string>
+    <string name="logout">คุณต้องการออกจากระบบ?</string>
+    <string name="version_app">เวอร์ชั่น 1.0.10</string>
+    <string name="loading_success">สำเร็จ</string>
+    <string name="back">กลับ</string>
+
+    //NEW SERVICE
+    <string name="new_service_service">บริการ</string>
+    <string name="new_service_status">สถานะ</string>
+    <string name="new_service_exp_date">หมดอายุ</string>
+    <string name="new_service_new_service">รายการใหม่</string>
+    <string name="new_service_create">สร้างบริการใหม่เมื่อลูกค้ามาถึง</string>
+    <string name="new_service_plate">ทะเบียน</string>
+    <string name="new_service_provice">จังหวัด</string>
+    <string name="new_service_car">รถ</string>
+    <string name="new_service_driver">ลูกค้า</string>
+    <string name="new_service_brand">ยี่ห้อ</string>
+    <string name="new_service_model">รุ่นรถ</string>
+    <string name="new_service_service_size">ขนาดของบริการ</string>
+    <string name="new_service_name">ชื่อ</string>
+    <string name="new_service_phone">เบอร์โทรศัพท์</string>
+    <string name="new_service_member">สมาชิก</string>
+    <string name="new_service_member_id">รหัส\nสมาชิก</string>
+    <string name="new_service_member_type">ชนิดของ\nสมาชิก</string>
+    <string name="new_service_choose_service">เลือกบริการ</string>
+    <string name="new_service_no">ที่.</string>
+    <string name="new_service_service_list">รายการบริการ</string>
+    <string name="new_service_price_baht">ราคา (บาท)</string>
+    <string name="new_service_total">ทั้งหมด</string>
+    <string name="new_service_discount">ส่วนลด</string>
+    <string name="new_service_final">ราคาสุทธิ</string>
+    <string name="new_service_discount_small">ส่วนลด</string>
+    <string name="new_service_bath">บาท</string>
+    <string name="new_service_percent">เปอร์เซ็น</string>
+    <string name="new_service_description">หมายเหตุ</string>
+    <string name="new_service_description_small">หมายเหตุ</string>
+    <string name="new_service_confirm">ตกลง</string>
+    <string name="new_service_service_start">เริ่มให้บริการ</string>
+    <string name="new_service_service_end">สิ้นสุดการให้บริการ</string>
+    <string name="new_service_service_served_by">บริการ โดย</string>
+    <string name="new_service_service_checked_by">ตรวจสอบ โดย</string>
+    <string name="new_service_service_release_by">ส่งมอบ โดย</string>
+
+    //ON SERVICE
+    <string name="on_service_service">ระหว่างดำเนินการ</string>
+    <string name="on_service_see_all">รายการบริการทั้งหมดที่กำลังดำเนินการ \nเลือกรายการที่รอตรวจสอบหรือรายการที่จะส่งมอบ</string>
+    <string name="on_service_not_found">ไม่พบข้อมูล</string>
+    <string name="on_service_start">เริ่ม</string>
+    <string name="on_service_finnish">สิ้นสุด</string>
+    <string name="on_service_release">ส่งมอบ</string>
+    <string name="on_service_served_by">บริการ โดย</string>
+    <string name="send_sms">ส่ง SMS แจ้งไปยังผู้ใช้บริการ?</string>
+
+    //HISTORY
+    <string name="history_history">ประวัติ</string>
+    <string name="history_see_all">ดูประวัติการบริการทั้งหมดของวันนี้\nเลือกรายการเพื่อดูรายละเอียดเพิ่มเติม</string>
+    <string name="history_not_found">ไม่พบข้อมูล</string>
+    <string name="history_date">วัน &amp; เวลา</string>
+    <string name="history_brand">รุ่นรถ</string>
+    <string name="history_plate">ทะเบียน</string>
+    <string name="history_ref">Ref. no</string>
+    <string name="history_service">บริการ</string>
+    <string name="history_price">ราคา</string>
+
+    //MEMBER
+    <string name="member_member">สมาชิก</string>
+    <string name="member_see_all">กรอก ป้ายทะเบียน, ชื่อ หรือ เบอร์โทรศัพท์ เพื่อค้นหาสมาชิก</string>
+    <string name="member_keyword">คำที่ต้องการค้นหา</string>
+
+    //SETTING
+    <string name="setting_setting">ตั้งค่า</string>
+    <string name="setting_printer">Printer Firmware :</string>
+    <string name="setting_update">อัพเดทล่าสุด :</string>
+    <string name="setting_auto_search">เปิดใช้งานการค้นหาอัตโนมัติ :</string>
+
+
+</resources>

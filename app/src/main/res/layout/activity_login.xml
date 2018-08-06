@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main">
+
+    <ScrollView
+        android:id="@+id/sv_box"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="30dp"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/asset_54_1"
+                android:padding="6dp"/>
+
+            <!--<TableLayout-->
+                <!--android:id="@+id/tablelayout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:layout_marginBottom="30dp"-->
+                <!--android:layout_marginLeft="100dp"-->
+                <!--android:layout_marginRight="100dp"-->
+                <!--android:layout_gravity="center_horizontal|center_vertical">-->
+
+                <!--<TableRow>-->
+
+                    <!--<TextView-->
+                        <!--android:text="Username"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:textColor="#d9c55d"-->
+                        <!--android:padding="15dp"-->
+                        <!--android:background="@android:color/transparent"-->
+                        <!--android:lines="1" />-->
+
+
+                    <!--<EditText-->
+                        <!--android:hint="Uername or Email"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:textColorHint="#c2c2c2"-->
+                        <!--android:padding="15dp"-->
+                        <!--android:background="@android:color/transparent"-->
+                        <!--android:lines="1"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:textColor="#fff"/>-->
+
+                <!--</TableRow>-->
+
+                <!--<TableRow>-->
+
+                    <!--<TextView-->
+                        <!--android:text="Password"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:textColor="#d9c55d"-->
+                        <!--android:padding="15dp"-->
+                        <!--android:background="@android:color/transparent"-->
+                        <!--android:lines="1"/>-->
+
+                    <!--<EditText-->
+                        <!--android:hint="password"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:textColorHint="#c2c2c2"-->
+                        <!--android:padding="15dp"-->
+                        <!--android:background="@android:color/transparent"-->
+                        <!--android:lines="1"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:textColor="#fff"/>-->
+
+                <!--</TableRow>-->
+
+            <!--</TableLayout>-->
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_username"
+                        android:textSize="18dp"
+                        android:textColor="#d9c55d"
+                        android:padding="15dp"
+                        android:background="@android:color/transparent"
+                        android:lines="1" />
+
+                    <com.ismartautocare.MyFontsStyle.MyEdittextFonts
+                        android:id="@+id/et_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/login_username_hint"
+                        android:textSize="18dp"
+                        android:textColorHint="#c2c2c2"
+                        android:padding="15dp"
+                        android:background="@android:color/transparent"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        android:textColor="#fff"
+                        android:imeOptions="actionNext"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_password"
+                        android:textSize="18dp"
+                        android:textColor="#d9c55d"
+                        android:padding="15dp"
+                        android:background="@android:color/transparent"
+                        android:lines="1" />
+
+                    <com.ismartautocare.MyFontsStyle.MyEdittextFonts
+                        android:id="@+id/et_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/login_password_hint"
+                        android:textSize="18dp"
+                        android:textColorHint="#c2c2c2"
+                        android:padding="15dp"
+                        android:background="@android:color/transparent"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        android:textColor="#fff"
+                        android:inputType="textPassword"
+                        android:imeOptions="actionDone"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical">
+
+                <com.ismartautocare.MyFontsStyle.MyButtonFonts
+                    android:id="@+id/bt_sign_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_sing_in"
+                    android:textSize="18dp"
+                    android:background="@drawable/border_button_login"
+                    android:textStyle="bold"
+                    android:textColor="@color/bg_main"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+                <com.ismartautocare.MyFontsStyle.MyButtonFonts
+                    android:id="@+id/bt_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_register"
+                    android:textSize="18dp"
+                    android:background="@drawable/border_button_login"
+                    android:textStyle="bold"
+                    android:textColor="@color/bg_main"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </LinearLayout>
+
+            <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                android:id="@+id/tv_forgot_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_forgot_pass"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="15dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="bottom"
+        android:padding="15dp"
+        android:text="@string/version_app"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_gravity="bottom|right"/>
+
+</FrameLayout>

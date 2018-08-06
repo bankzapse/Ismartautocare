@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main">
+
+    <ScrollView
+        android:id="@+id/sc_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar_Top"
+        android:layout_above="@id/relativeLayout">
+
+        <LinearLayout
+            android:id="@+id/ln_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bottomBar"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/bottomBar"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/image_clear_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/asset_13_1_create"
+                        android:padding="6dp"
+                        android:layout_weight="1"/>
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/new_service_create"
+                        android:textSize="18dp"
+                        android:textColor="#fff"
+                        android:padding="15dp"
+                        android:background="@android:color/transparent"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/bottomBar"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/bottomBar"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/border_plate_number">
+
+                        <!--<LinearLayout-->
+                            <!--android:id="@+id/lv_box_plate"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_above="@+id/bottomBar"-->
+                            <!--android:orientation="vertical"-->
+                            <!--android:layout_gravity="center_vertical|center_horizontal"-->
+                            <!--android:layout_marginLeft="5dp"-->
+                            <!--android:layout_marginRight="5dp">-->
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/et_plate_number_print"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:text="Plate Number"-->
+                                <!--android:textSize="18dp"-->
+                                <!--android:background="#fff"-->
+                                <!--android:lines="1"-->
+                                <!--android:textColor="#000"-->
+                                <!--android:layout_gravity="center_horizontal"-->
+                                <!--android:textStyle="bold"/>-->
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/et_province_number_print"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:text="Province"-->
+                                <!--android:textSize="18dp"-->
+                                <!--android:background="#fff"-->
+                                <!--android:lines="1"-->
+                                <!--android:textColor="#000"-->
+                                <!--android:layout_gravity="center_horizontal"-->
+                                <!--android:textStyle="bold"/>-->
+
+                        <!--</LinearLayout>-->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/bottomBar"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:background="@drawable/border_inside_plate"
+                            android:layout_margin="5dp">
+
+                            <com.ismartautocare.MyFontsStyle.MyEdittextFonts
+                                android:id="@+id/et_plate_number"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:hint="@string/new_service_plate"
+                                android:textSize="18dp"
+                                android:textColorHint="#000"
+                                android:backgroundTint="#000"
+                                android:lines="1"
+                                android:textColor="#000"
+                                android:ems="8"
+                                android:gravity="center_horizontal"/>
+
+                            <AutoCompleteTextView
+                                android:id="@+id/et_province_number"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:hint="@string/new_service_provice"
+                                android:textSize="18dp"
+                                android:textColorHint="@color/bg_box"
+                                android:backgroundTint="@color/bg_box"
+                                android:lines="1"
+                                android:textColor="#000"
+                                android:gravity="center_horizontal"
+                                android:ems="8"/>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/asset_20"
+                        android:padding="6dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <include layout="@layout/include_new_service_box_car_driver"/>
+
+            <include layout="@layout/include_new_service_box_service"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

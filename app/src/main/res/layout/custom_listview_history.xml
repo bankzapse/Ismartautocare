@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomBar"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="15dp">
+
+        <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+            android:id="@+id/tv_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:text="16:50 - 17:20"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/img_brand"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/custom_image_h"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/bmw"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomBar"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/border_plate_number">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/bottomBar"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/border_inside_plate"
+                    android:layout_margin="4dp"
+                    android:padding="5dp">
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:id="@+id/tv_plate_number"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Plate Number"
+                        android:textSize="18dp"
+                        android:lines="1"
+                        android:textColor="#000"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:ems="5"/>
+
+                    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                        android:id="@+id/tv_province"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Province"
+                        android:textSize="16dp"
+                        android:textColor="#000"
+                        android:gravity="center_horizontal"
+                        android:ems="5"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right|center_vertical">
+
+            <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                android:id="@+id/tv_ref"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:text="#7451"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                android:id="@+id/tv_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:text="W1"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="22,725.00"
+                android:textColor="#d9c55d"
+                android:textSize="16dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="1"/>
+
+            <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text=">"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

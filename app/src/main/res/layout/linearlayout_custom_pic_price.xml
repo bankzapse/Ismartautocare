@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+        android:id="@+id/textView0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="8dp"
+        android:textColor="#000"
+        android:layout_weight="1"/>
+
+    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
+        android:layout_weight="1"/>
+
+    <com.ismartautocare.MyFontsStyle.MyTextViewFonts
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="8dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="#000"
+        android:gravity="right"
+        android:layout_weight="1"/>
+
+</LinearLayout>

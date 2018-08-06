@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iSmart\nAutoCare</string>
+
+    <string name="base_url">http://43.229.78.108:3011/</string>
+
+    <string name="login_username">username</string>
+    <string name="login_password">password</string>
+    <string name="login_username_hint">Username or Email</string>
+    <string name="login_password_hint">password</string>
+    <string name="login_please_username">  Please input username  </string>
+    <string name="login_please_pass">  Please input password  </string>
+    <string name="login_forgot_pass">For got your password</string>
+    <string name="login_sing_in"> SIGN IN </string>
+    <string name="login_cancel">  CANCEL  </string>
+    <string name="login_register">  REGISTER  </string>
+    <string name="login_meassage_er_user_pass_403">  username or password is wrong </string>
+    <string name="login_meassage_er_user_pass_503">  Server error </string>
+    <string name="login_meassage_er_for_got">Forgot your password</string>
+    <string name="login_meassage_er_system_error">System error found</string>
+    <string name="login_meassage_er_system_error_sub">Please try again later or contacting our \n support center for immediate response</string>
+    <string name="login_meassage_er_register_under">Register under development</string>
+    <string name="login_meassage_er_admin_contact">Please contact your system admin</string>
+    <string name="logout">Are you sure you want to logout</string>
+    <string name="version_app">Version 1.0.10</string>
+    <string name="loading_success">Success</string>
+    <string name="back">Back</string>
+
+    //NEW SERVICE
+    <string name="new_service_service">Service</string>
+    <string name="new_service_status">Status</string>
+    <string name="new_service_exp_date">EXP date </string>
+    <string name="new_service_new_service">New Service</string>
+    <string name="new_service_create">Creating a new service when a client arrives</string>
+    <string name="new_service_plate">Plate</string>
+    <string name="new_service_provice">Provice</string>
+    <string name="new_service_car">CAR</string>
+    <string name="new_service_driver">DRIVER</string>
+    <string name="new_service_brand">Brand</string>
+    <string name="new_service_model">Model</string>
+    <string name="new_service_service_size">Service Size</string>
+    <string name="new_service_name">name</string>
+    <string name="new_service_phone">phone number</string>
+    <string name="new_service_member">MEMBER</string>
+    <string name="new_service_member_id">ID : </string>
+    <string name="new_service_member_type">TYPE : </string>
+    <string name="new_service_choose_service">Choose a Service</string>
+    <string name="new_service_no">No.</string>
+    <string name="new_service_service_list">Service List</string>
+    <string name="new_service_price_baht">Price(Baht)</string>
+    <string name="new_service_total">Total</string>
+    <string name="new_service_discount">Discount</string>
+    <string name="new_service_final">Final</string>
+    <string name="new_service_discount_small">discount</string>
+    <string name="new_service_bath">bath</string>
+    <string name="new_service_percent">percent</string>
+    <string name="new_service_description">Description</string>
+    <string name="new_service_description_small">description</string>
+    <string name="new_service_confirm">Confirm</string>
+    <string name="new_service_service_start">Service start</string>
+    <string name="new_service_service_end">Service end</string>
+    <string name="new_service_service_served_by">SERVED BY</string>
+    <string name="new_service_service_checked_by">CHECKED BY</string>
+    <string name="new_service_service_release_by">RELEASED BY</string>
+
+    //ON SERVICE
+    <string name="on_service_service">On Service</string>
+    <string name="on_service_see_all">See all active that are on-going. \nSelect a car record that is ready to be released</string>
+    <string name="on_service_not_found">Not found info</string>
+    <string name="on_service_start">Start</string>
+    <string name="on_service_finnish">Finish</string>
+    <string name="on_service_release">Release</string>
+    <string name="on_service_served_by">SERVED BY</string>
+    <string name="send_sms">Send SMS to notify the customer?</string>
+
+    //HISTORY
+    <string name="history_history">History</string>
+    <string name="history_see_all">See all historical car wash activities taking place today.\nSelect a record for more detailed information.</string>
+    <string name="history_not_found">Not found info</string>
+    <string name="history_date">Date &amp; Time</string>
+    <string name="history_brand">Brand</string>
+    <string name="history_plate">Plate</string>
+    <string name="history_ref">Ref. no</string>
+    <string name="history_service">Service</string>
+    <string name="history_price">Price</string>
+
+    //MEMBER
+    <string name="member_member">Member</string>
+    <string name="member_see_all">Type in plate number, name, or a phone number.</string>
+    <string name="member_keyword">Keywords</string>
+
+    //SETTING
+    <string name="setting_setting">Setting</string>
+    <string name="setting_printer">Printer Firmware :</string>
+    <string name="setting_update">Last Date Fetch :</string>
+    <string name="setting_auto_search">Enable Auto Search :</string>
+
+</resources>

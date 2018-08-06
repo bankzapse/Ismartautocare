@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/new_service"
+        icon="@drawable/asset_61_3x"
+        title="Favorites"/>
+    <tab
+        id="@+id/on_service"
+        icon="@drawable/asset_60_3x"
+        title="Favorites" />
+    <tab
+        id="@+id/history"
+        icon="@drawable/asset_59_3x"
+        title="Favorites" />
+    <tab
+        id="@+id/member"
+        icon="@drawable/asset_58_3x"
+        title="Favorites" />
+    <tab
+        id="@+id/setting"
+        icon="@drawable/asset_57_3x"
+        title="Favorites" />
+</tabs>
